@@ -4,7 +4,7 @@ let n = parseInt(readlineSync.question("Entrez un nombre : "));
 let somme = 0;
 
 for (let i = 0; i < n; i++) {
-  let numero = parseFloat(readlineSync.question("Entrez un nouveau numero : "));
+  let numero = parseInt(readlineSync.question("Entrez un nouveau numero : "));
   somme += numero;
 }
 
